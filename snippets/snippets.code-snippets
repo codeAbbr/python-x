@@ -1,0 +1,66 @@
+{
+	"Main Class": {
+		"prefix": "cdMainClass",
+		"body": [
+			"class ${9:class_name}:",
+			"    def __init__(self):",
+			"        $1pass"
+		]
+	},
+	"Print to console": {
+		"prefix": "cdPrint",
+		"body": [
+			"print(${2:'code here'})"
+		],
+		"description": "Log output to console"
+	},
+
+	"for_loop": {
+		"prefix": "cdForLoop",
+		"body": [
+			"for i in ${0:range}(${1:index}):",
+			"    $2pass"
+		],
+		"description": "Loops or iterates through a string or list"
+	},
+
+	"while_loop": {
+		"prefix": "cdWhileLoop",
+		"body": [
+			"while True:",
+			"    $3pass"
+		],
+		"description": "Loops or iterates through a string or list"
+	},
+
+	"Dictionary": {
+		"prefix": "cdDictionary",
+		"body": [
+			"dict()"
+		]
+	},
+
+	"if_statement": {
+		"prefix": "cdIf",
+		"body": [
+			"if ${7:condition}:",
+			"    $8pass"
+		]
+	},
+
+	"Function": {
+		"prefix": "cdFunction",
+		"body": [
+			"def ${5:function_name}(${4:parameter}):"
+			"    $6pass"
+		]
+	},
+
+	"Iterator": {
+		"prefix": "cdIter",
+		"body": [
+			"iter()",
+			"next()"
+		]
+	}
+}

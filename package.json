@@ -1,0 +1,26 @@
+{
+  "name": "python-x",
+  "displayName": "pythonX",
+  "description": "pythonX is a python code snippet created to help make coding in python easier,fun and fast. ",
+  "version": "0.0.0",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "python-x",
+    "pythonX",
+    "python",
+    "vspythonX"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "python",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

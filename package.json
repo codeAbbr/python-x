@@ -1,10 +1,10 @@
 {
   "name": "python-x",
   "displayName": "pythonX",
+  "publisher": "pythonXPublisher",
   "description": "pythonX is a python code snippet created to help make coding in python easier,fun and fast. ",
   "version": "0.0.0",
   "icon": "pythonX.png",
-  "publisher": "pythonXPublisher",
   "engines": {
     "vscode": "^1.82.0"
   },

@@ -41,7 +41,7 @@
 	},
 
 	"if_statement": {
-		"prefix": "cdIf",
+		"prefix": "cdIfCondition",
 		"body": [
 			"if ${7:condition}:",
 			"    $8pass"

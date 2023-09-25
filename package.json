@@ -13,7 +13,8 @@
     "python-x",
     "pythonX",
     "python",
-    "vspythonX"
+    "vspythonX",
+    "vscode"
   ],
   "contributes": {
     "snippets": [

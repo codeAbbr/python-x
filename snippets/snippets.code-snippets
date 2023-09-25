@@ -1,6 +1,6 @@
 {
 	"Main Class": {
-		"prefix": "cdMainClass",
+		"prefix": "cpMainClass",
 		"body": [
 			"class ${9:class_name}:",
 			"    def __init__(self):",
@@ -8,7 +8,7 @@
 		]
 	},
 	"Print to console": {
-		"prefix": "cdPrint",
+		"prefix": "cpPrint",
 		"body": [
 			"print(${2:'code here'})"
 		],
@@ -16,7 +16,7 @@
 	},
 
 	"for_loop": {
-		"prefix": "cdForLoop",
+		"prefix": "cpForLoop",
 		"body": [
 			"for i in ${0:range}(${1:index}):",
 			"    $2pass"
@@ -25,7 +25,7 @@
 	},
 
 	"while_loop": {
-		"prefix": "cdWhileLoop",
+		"prefix": "cpWhileLoop",
 		"body": [
 			"while True:",
 			"    $3pass"
@@ -34,14 +34,14 @@
 	},
 
 	"Dictionary": {
-		"prefix": "cdDictionary",
+		"prefix": "cpDictionary",
 		"body": [
 			"dict()"
 		]
 	},
 
 	"if_statement": {
-		"prefix": "cdIfCondition",
+		"prefix": "cpIfCondition",
 		"body": [
 			"if ${7:condition}:",
 			"    $8pass"
@@ -49,7 +49,7 @@
 	},
 
 	"Function": {
-		"prefix": "cdFunction",
+		"prefix": "cpFunction",
 		"body": [
 			"def ${5:function_name}(${4:parameter}):"
 			"    $6pass"
@@ -57,7 +57,7 @@
 	},
 
 	"Iterator": {
-		"prefix": "cdIter",
+		"prefix": "cpIter",
 		"body": [
 			"iter()",
 			"next()"

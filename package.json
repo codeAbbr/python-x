@@ -4,6 +4,7 @@
   "description": "pythonX is a python code snippet created to help make coding in python easier,fun and fast. ",
   "version": "0.0.0",
   "icon": "pythonX.png",
+  "publisher": "pythonXPublisher",
   "engines": {
     "vscode": "^1.82.0"
   },
@@ -24,5 +25,9 @@
         "path": "./snippets/snippets.code-snippets"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeAbbr/python-x.git"
   }
 }

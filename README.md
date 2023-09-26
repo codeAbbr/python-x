@@ -7,14 +7,14 @@ Enter the Visual Studio Code Marketplace, search for pythonX (or enter the exten
 
 ## Snippets
 * Type "cd" to enter the corresponding snippets:
-    * cdForLoop
-    * cdMainClass
-    * cdPrint
-    * cdWhileLoop
-    * cdDictionary
-    * cdIfCondition
-    * cdFunction
-    * cdIter
+    * cpForLoop
+    * cpMainClass
+    * cpPrint
+    * cpWhileLoop
+    * cpDictionary
+    * cpIfCondition
+    * cpFunction
+    * cpIter
 
 ## Release Note
 See change log

@@ -3,7 +3,7 @@
   "displayName": "pythonX",
   "publisher": "pythonXPublisher",
   "description": "pythonX is a python code snippet created to help make coding in python easier,fun and fast. ",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "icon": "pythonX.png",
   "engines": {
     "vscode": "^1.82.0"

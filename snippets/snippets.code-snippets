@@ -62,5 +62,55 @@
 			"iter()",
 			"next()"
 		]
+	},
+
+	"Length Function": {
+		"prefix": "cpLenFunction",
+		"body": [
+			"len()"
+		]
+	},
+
+	"Exception Blocks": {
+		"prefix": "cpException",
+		"body": [
+			"try:",
+			"  $3pass",
+			"except:",
+			"  $4pass",
+			"finally:",
+			"  $5pass"
+		]
+	},
+
+	"Input Funtion": {
+		"prefix": "cpInput",
+		"body": [
+			"input()"
+		]
+	},
+	"String Format": {
+		"prefix": "cpFormat",
+		"body" :[
+			"format()"
+		]
+	},
+	"Type Function": {
+		"prefix": "cpType",
+		"body": [
+			"type()"
+		]
+	},
+	"File Function": {
+		"prefix": "cpFile",
+		"body": [
+			"open(${1:file_path},${2:mode})"
+		]
+	},
+	"Lambda": {
+		"prefix": "cpLambda",
+		"body": [
+			"lambda ${1:arguments} : ${2:expression}"
+		]
 	}
 }

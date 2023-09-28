@@ -15,6 +15,13 @@ Enter the Visual Studio Code Marketplace, search for pythonX (or enter the exten
     * cpIfCondition
     * cpFunction
     * cpIter
+    * cpLenFunction
+    * cpException
+    * cpInput
+    * cpFormat
+    * cpType
+    * cpFile
+    * cpLambda
 
 ## Release Note
 See change log

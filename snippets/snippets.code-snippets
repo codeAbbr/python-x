@@ -112,5 +112,23 @@
 		"body": [
 			"lambda ${1:arguments} : ${2:expression}"
 		]
+	},
+	"Cast To String":{
+		"prefix": "cpCastStr",
+		"body": [
+			"str()"
+		]
+	},
+	"Cast To Integer":{
+		"prefix": "cpCastInt",
+		"body": [
+			"int()"
+		]
+	},
+	"Cast To Float":{
+		"prefix": "cpCastFloat",
+		"body": [
+			"float()"
+		]
 	}
 }

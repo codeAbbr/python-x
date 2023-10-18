@@ -22,6 +22,9 @@ Enter the Visual Studio Code Marketplace, search for pythonX (or enter the exten
     * cpType
     * cpFile
     * cpLambda
+    * cpCastStr
+    * cpCastInt
+    * cpCastFloat
 
 ## Release Note
 See change log

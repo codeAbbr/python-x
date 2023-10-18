@@ -27,7 +27,7 @@ Enter the Visual Studio Code Marketplace, search for pythonX (or enter the exten
     * cpCastFloat
 
 ## Release Note
-See change log
+See [changelog]
 
 Initial release of pythonX
 

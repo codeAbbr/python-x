@@ -7,4 +7,4 @@ All notable changes to the "python-x" extension will be documented in this file.
 ## [0.0.2]
 
 - Initial release of pythonX
-- Limits to 8 snippets only
+- Limits to 18 snippets only

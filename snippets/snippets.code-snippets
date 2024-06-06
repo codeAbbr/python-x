@@ -114,7 +114,7 @@
 	},
 	//[Open File Function] UPDATED
 	"Open File Function": {
-		"prefix": "cpOpenFile",
+		"prefix": "cpFile",
 		"body": [
 			"open(${1:file_path},${2:mode})"
 		]
@@ -164,7 +164,7 @@
 		]
 	},
 	"Boolean Function":{
-		"prefix": "cpBoolFunct",
+		"prefix": "cpBoolFunc",
 		"body": [
 			"bool()"
 		]

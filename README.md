@@ -13,8 +13,9 @@ Enter the Visual Studio Code Marketplace, search for pythonX (or enter the exten
     * cpWhileLoop
     * cpDictionary
     * cpIfCondition
+    * cpIfElseCondition
     * cpFunction
-    * cpIter
+    * cpIterator
     * cpLenFunction
     * cpException
     * cpInput
@@ -25,6 +26,12 @@ Enter the Visual Studio Code Marketplace, search for pythonX (or enter the exten
     * cpCastStr
     * cpCastInt
     * cpCastFloat
+    * cpImport
+    * cpTuple
+    * cpBool
+    * cpBoolFunc
+    * cpSingleCommment
+    * cpMultiComment
 
 ## Release Note
 See change log

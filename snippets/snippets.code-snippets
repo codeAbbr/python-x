@@ -32,14 +32,15 @@
 		],
 		"description": "Loops or iterates through a string or list"
 	},
-
-	"Dictionary": {
+	//Name UPDATED
+	"Dictionary Constructor": {
 		"prefix": "cpDictionary",
 		"body": [
 			"dict()"
 		]
 	},
 
+	//More If_Statement UPDATED and ADDED
 	"if_statement": {
 		"prefix": "cpIfCondition",
 		"body": [
@@ -48,16 +49,26 @@
 		]
 	},
 
+	"if/else_statement": {
+		"prefix": "cpIfElseCondition",
+		"body": [
+			"if ${7:condition}:",
+			"    $8pass",
+			"else: ",
+			"      "
+		]
+	},
+
 	"Function": {
 		"prefix": "cpFunction",
 		"body": [
-			"def ${5:function_name}(${4:parameter}):"
+			"def ${5:function_name}(${4:parameter}):",
 			"    $6pass"
 		]
 	},
 
 	"Iterator": {
-		"prefix": "cpIter",
+		"prefix": "cpIterator",
 		"body": [
 			"iter()",
 			"next()"
@@ -101,8 +112,9 @@
 			"type()"
 		]
 	},
-	"File Function": {
-		"prefix": "cpFile",
+	//[Open File Function] UPDATED
+	"Open File Function": {
+		"prefix": "cpOpenFile",
 		"body": [
 			"open(${1:file_path},${2:mode})"
 		]
@@ -130,5 +142,44 @@
 		"body": [
 			"float()"
 		]
+	},
+	//NEW SYNTAX FOR UPDATE
+	"Import":{
+		"prefix": "cpImport",
+		"body": [
+			"import "
+		]
+	},
+
+	"Tuple Constructor":{
+		"prefix": "cpTuple",
+		"body": [
+			"tuple()"
+		]
+	},
+	"Booleans":{
+		"prefix": "cpBool",
+		"body": [
+			"${2|True,False|}"
+		]
+	},
+	"Boolean Function":{
+		"prefix": "cpBoolFunct",
+		"body": [
+			"bool()"
+		]
+	},
+	"Single-line Comment":{
+		"prefix": "cpSingleComment",
+		"body": [
+			"# "
+		]
+	},
+	"Multi-line Comment":{
+		"prefix": "cpMultiComment",
+		"body": [
+			"tuple()"
+		]
 	}
+	
 }
